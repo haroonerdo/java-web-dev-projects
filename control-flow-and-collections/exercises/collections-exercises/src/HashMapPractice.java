@@ -12,7 +12,7 @@ public class HashMapPractice {
             System.out.println("Enter student ID (integer) or 0 to stop:");
             int id = scan.nextInt();
 
-            // If user enters -1, stop adding students
+            // If user enters 0, stop adding students
             if (id == 0) {
                 break;
             }
@@ -29,6 +29,11 @@ public class HashMapPractice {
                 System.out.println("ID: " + entry.getKey() + ", Name: " + entry.getValue());
             }
 
+
+        }
+        System.out.println("Student List:");
+        for (HashMap.Entry<Integer, String> entry : studentMap.entrySet()) {
+            System.out.println("ID: " + entry.getKey() + ", Name: " + entry.getValue());
         }
     }
 }
