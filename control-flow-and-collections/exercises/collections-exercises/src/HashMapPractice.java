@@ -28,8 +28,6 @@ public class HashMapPractice {
             for (HashMap.Entry<Integer, String> entry : studentMap.entrySet()) {
                 System.out.println("ID: " + entry.getKey() + ", Name: " + entry.getValue());
             }
-
-
         }
         System.out.println("Student List:");
         for (HashMap.Entry<Integer, String> entry : studentMap.entrySet()) {

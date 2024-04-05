@@ -18,7 +18,6 @@ public class Circle {
             radius = input.nextDouble();
         } while (radius <= 0);
         return (3.14* radius * radius);
-
     }
 }
 
