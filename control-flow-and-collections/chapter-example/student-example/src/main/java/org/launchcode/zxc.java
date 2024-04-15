@@ -1,13 +1,15 @@
 package org.launchcode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-
 public class zxc {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        sayHello();
+    }
+         static String message = "Hello World";
+
+         static void sayHello() {
+            System.out.println(message);
+        }
 
     }
-}
+

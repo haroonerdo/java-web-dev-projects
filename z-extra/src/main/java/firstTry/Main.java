@@ -1,9 +1,8 @@
-package org.launchcode;
+package org.launchcode.firstTry;
 
 import java.text.Format;
 import java.text.SimpleDateFormat;
 import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.time.LocalDate; // import the LocalDate class
@@ -19,19 +18,19 @@ public class Main {
 
 
         // write your code here
-        MenuItem lentilSoup = new MenuItem("Lentil Soup"," ",
+        MenuItem2 lentilSoup = new MenuItem2("Lentil Soup"," ",
                 "Appetizer",5.0,  true, date, true);
-        MenuItem rice = new MenuItem("Rice"," ",
+        MenuItem2 rice = new MenuItem2("Rice"," ",
                 "Main Course",3.0,  true,date, true);
-        MenuItem trseLeche = new MenuItem("TresLeches"," ",
+        MenuItem2 trseLeche = new MenuItem2("TresLeches"," ",
                 "Dessert",5.0,  true,date, true);
-        MenuItem salad = new MenuItem("Salad"," ",
+        MenuItem2 salad = new MenuItem2("Salad"," ",
                 "Salad",5.0,  true,date, true);
 
 
-        ArrayList<MenuItem> mainMenu = new ArrayList<>();
+        ArrayList<MenuItem2> mainMenu = new ArrayList<>();
 
-        Menu myMenu = new Menu(mainMenu);
+        Menu2 myMenu = new Menu2(mainMenu);
 
         myMenu.addItem(lentilSoup);
         myMenu.addItem(rice);

@@ -1,10 +1,10 @@
-package org.launchcode;
+package org.launchcode.firstTry;
 
 import java.text.Format;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class MenuItem {
+public class MenuItem2 {
 
     private Format dateFormat = new SimpleDateFormat();
 
@@ -16,7 +16,7 @@ public class MenuItem {
     private Date addedDate;
     private boolean available;
 
-    public MenuItem(String name, String description, String category, double price, boolean newItem, Date addedDate, boolean available) {
+    public MenuItem2(String name, String description, String category, double price, boolean newItem, Date addedDate, boolean available) {
         this.name = name;
         this.description = description;
         this.category = category;
@@ -81,4 +81,5 @@ public class MenuItem {
     public void setAvailable(boolean available) {
         this.available = available;
     }
+
 }
