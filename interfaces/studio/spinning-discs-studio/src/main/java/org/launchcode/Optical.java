@@ -1,7 +1,8 @@
 package org.launchcode;
 
-public class CD extends BaseDisc implements OpticalDisc{
-    public CD(String name, String discType, int totalDiscCapacity, int storedData, String contents, double price) {
+public class Optical extends BaseDisc implements OpticalDisc{
+
+    public Optical(String name, String discType, int totalDiscCapacity, int storedData, String contents, double price) {
         super(name, discType, totalDiscCapacity, storedData, contents, price);
     }
 
@@ -25,12 +26,12 @@ public class CD extends BaseDisc implements OpticalDisc{
 
     @Override
     public void spin() {
-        System.out.println("CD is spinning.");
+        System.out.println("Disc is spinning.");
     }
 
     @Override
     public String readData() {
-        return "Reading data from CD.";
+        return "Reading data from Disc.";
     }
 
 
